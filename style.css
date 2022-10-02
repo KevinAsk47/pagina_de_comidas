@@ -1,0 +1,578 @@
+.general {
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.Empanadas {
+    display: flex;
+    height: 50vh;
+    background-color: black;
+    background-image: url(./img/pexels-pixabay-326278.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sub-titulo-empanadas {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    /* background-color: aqua; */
+    margin-top: 10em;
+}
+
+.titulo {
+    margin-top: 2em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Bungee Spice', cursive;
+    color: white;
+}
+
+.sub-cartas {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.buton-img {
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 45vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20em;
+    padding-bottom: 30px;
+}
+
+.boton2-img {
+    display: flex;
+
+    justify-content: space-around;
+    /* background-color: blue; */
+    width: 16em;
+
+
+}
+
+.boton-img {
+
+    border: 1px solid rgb(71, 106, 68);
+    height: 4em;
+    width: 7em;
+    border-radius: 9%;
+    background-color: rgb(120, 172, 114);
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.special-food {
+    display: flex;
+    min-height: 20em;
+    width: 100%;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+/* .navbar{
+    background-color: aquamarine;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.cards {
+
+    /* background-color: rgba(243, 216, 191, 0.982); */
+    min-height: 15em;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+
+
+.cards-1 {
+    display: flex;
+    height: 13em;
+    width: 25em;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.32);
+   
+
+}
+
+.informacion {
+    background-color: rgb(245, 241, 237);
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 15px;
+    padding-top: 15px; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+
+.img-icono {
+    width: 50px;
+   
+}
+
+.icono {
+    border: #eae6e6 1px solid;
+     padding-left: 15px;
+    padding-top: 15px; 
+    
+    /* background-color: black; */
+    width: 10vh; 
+    /* background-color: rgb(202, 117, 67); */
+}
+
+.icono-bebidas {
+    border: #eae6e6 1px solid;
+    /* background-color: rgb(214, 133, 87); */
+    padding-left: 15px;
+    padding-top: 15px;
+    /* background-color: black; */
+    width: 10vh;
+
+}
+
+
+
+.titulo-bebidas {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+
+.titulo-bebidas-titulo {
+  color: white;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+
+
+
+
+.redondo {
+    margin-left: 13em;
+    margin-top: 25px;
+    width: 8vh;
+    height: 3em;
+   border-radius: 2rem;
+    border: #eae6e6 1px solid;
+    background-color: rgb(244, 231, 225);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+#carousel{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248,249,250);
+    background: linear-gradient(32deg, rgba(248,249,250,1) 54%, rgb(224, 135, 100) 100%);
+
+
+}
+#carouselExampleControls{
+
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+
+  }
+  .carousel-inner{
+    height: 42rem;
+   padding-top: 5rem;
+
+  }
+
+
+  .carousel-dentro{
+    margin-right: 5rem;
+ 
+  }
+
+
+.footer {
+    background: rgb(248,249,250);
+    background: linear-gradient(32deg, rgba(248,249,250,1) 54%, rgb(239, 213, 203) 100%);
+  }
+
+
+  .footer .footer_top {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
+
+
+    .footer .footer_top {
+      padding-top: 60px;
+      padding-bottom: 30px;
+
+    }
+
+
+    .footer .footer_top .footer_widget {
+      margin-bottom: 30px;
+
+
+  }
+
+
+
+
+  .footer .footer_top .footer_widget .links {
+
+    position: relative;
+    top: 0;
+      text-decoration: none;
+  }
+
+
+
+  .footer .footer_top .footer_widget .footer_logo {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+
+
+    .footer .footer_top .footer_widget .footer_logo {
+      margin-bottom: 0px;
+
+  }
+
+
+
+
+  .footer .footer_top .footer_widget ul li {
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+
+  .footer .footer_top .footer_widget ul li a {
+    color: #7a7a7a;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .footer .footer_top .footer_widget ul li a:hover {
+    color: #eb592d;
+  }
+
+
+  .footer .social_links li a{
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+
+  .footer  ul {
+
+    list-style: none;
+
+  }
+
+  .footer_logo_index {
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer_logo_index:hover {
+    color: black;
+  }
+
+  .footer_links {
+    text-decoration: none;
+  }
+  .boton-img-suscribirme{
+    border: 1px solid rgb(71, 106, 68);
+    height: 2em;
+    width: 7em;
+    border-radius: 9%;
+    background-color: rgb(120, 172, 114);
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    
+
+  }
+
+  
+
+ .arepas{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+
+}  
+
+
+
+.arepas-hh{
+    background-color: rgb(245, 241, 237);
+    display: flex;
+   
+  
+
+} 
+
+.img-arepas{
+    width: 33em;
+    height: 20rem;
+}
+
+.arepas-h{
+    text-align: center;
+    width: 10;
+    
+}
+
+/* CONTACTO */
+
+
+.id_contacto{
+ display: flex;
+ flex-wrap: wrap;
+ background: rgb(248,249,250);
+    background: linear-gradient(32deg, rgba(248,249,250,1) 54%, rgb(239, 213, 203) 100%);
+  margin-top: 10px;
+  margin-bottom: 3em;
+
+  
+}
+
+form{
+  display: flex;  justify-content: center; 
+  align-items: center;
+
+  width: 50em;
+}
+.form{
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+ 
+  
+
+}
+form .grupo_contacto{
+  position:relative;
+  width: 80%;
+  height: 11%;
+ }
+
+.text_area_contacto {
+  display: flex;
+ }
+
+.caja_contacto{
+  height: 500px;
+  width: 40%;
+  
+  padding: 5% 8% 0% 8%;
+  float:right;
+  margin: 10%;
+  border-radius: 20px;
+ }
+
+
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+  }
+
+  .yo{
+   
+   width: 50vw;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ 
+  }
+  .letra-yo{
+    margin-top: 1rem;
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+
+  .mifoto{
+    background-image: url(./img/fotocvsol.jpg);
+   height: 23em;
+width: 21em;
+border-radius: 100%;
+background-size: cover;
+background-position: center;
+
+
+  }
+
+  .textos-foto{
+    margin-top: 3rem;
+    text-align: center;
+   border: #bfafaf58 solid 1px;
+  /* background-color: #c6c6c6;  */
+  width: 40%;
+  }
+ 
+.caja_contacto{
+  height: 600px;
+  width: 60%;
+  padding: 5% 8% 0% 8%;
+  margin: 10%;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px 2px;
+ 
+  }
+
+
+.input {
+  background: none;
+  color: #c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--colorTextos);
+}
+
+input:focus{
+  outline: none;
+  color: #5e5d5d;
+}
+
+label{
+  color: var(--colorTextos);
+  font-size:16px;
+  position:absolute;
+  top: 10px;
+  transition: 0.5s ease-in-out all;
+  pointer-events: none;
+}
+
+input:focus~label,
+input:valid~label{
+  top: -14px;
+  font-size: 15px;
+  color: #2196f3;
+}
+
+.barra_contacto {
+  position:relative;
+  display: block;
+  width: 0%;
+}
+
+.barra_contacto::before{
+  content: "";
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(to right, #911616, #947a43);
+  transition: 0.3s ease width;
+  left: 0;
+}
+
+.color-btn_contacto{
+  background-color: rgb(25, 158, 7);
+  color: white;
+}
+
+
+
+.mapas_contacto{
+  border-style:hidden;
+  height: 400%;  
+}
+
+.evento_contacto {
+ /* background-color: rgb(133, 175, 119); */
+  width: 100%;
+  height: 20%;
+  color: rgba(238, 54, 21);
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.mapcontact{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+/* .cardcontacto{
+  display: flex;
+  flex-direction: row;
+  margin: 15%;
+  padding: 15px;
+}
+.card_body_contacto{
+  background-color: rgb(255, 255, 255);
+  margin: 1rem;
+  height: 50%;
+  border-radius: 30px;
+  border:solid 2px rgb(56, 208, 150);
+} */
+
+h1.h1blanco{
+ color: white;
+}
+
+#contacto footer{
+margin-top: 0 !important;
+}
+
+

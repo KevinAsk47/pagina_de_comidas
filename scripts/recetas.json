@@ -1,0 +1,57 @@
+{
+    "status": "success",
+   "informacion":{
+    "recetas":[
+
+        {
+            "id": 7,
+            "tipo": "recetas",
+            "titulo": "Paso 1:",
+            "sub_titulo": "Ingredientes:",
+            "descripcion":"500 gr de harina de maiz precocido Agua Sal bowl profundo",
+            "img": "./img/harinaarepas.webp"
+        },
+
+        {
+            "id": 8,
+            "tipo": "recetas",
+            "titulo": "Paso 2:",
+            "sub_titulo": "Hora de amasar",
+            "descripcion": "Coloca agua Coloca Harina Sal Amasa hasta tener una consistencia homogenea",
+            "img": "./img/masaarepas.webp"
+        },
+        {
+            "id": 9,
+            "tipo": "recetas",
+            "titulo": "Paso 3:",
+            "sub_titulo": "A darle forma",
+            "img": "./img/arepascrudas.webp"
+        },
+        {
+            "id": 10,
+            "tipo": "recetas",
+            "titulo": "Paso 4:",
+            "sub_titulo": "A cocinar",
+            "img": "./img/arepasensarten.webp"
+        },
+
+        {
+            "id": 11,
+            "tipo": "recetas",
+            "titulo": "Paso 5:",
+            "sub_titulo": "A Comer",
+            "img": "./img/arepascrudas.webp"
+        },
+
+        {
+            "id": 12,
+            "tipo": "recetas",
+            "titulo": "Paso 6:",
+            "sub_titulo": "ideal para",
+            "img": "./img/dibujoarepa.webp"
+        }
+
+
+    ]
+   }
+}

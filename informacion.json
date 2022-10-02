@@ -1,0 +1,49 @@
+{
+    "status": "success",
+    "informacion": {
+        "comidas": [
+            {
+                "id": 1,
+                "tipo": "comida",
+                "titulo": "Special Arepas",
+                "sub_titulo": "Aprende a cocinar unas ricas Arepas",
+                "img": "./img/AREPAS-VENEZOLANAS.jpg"
+            },
+            {
+                "id": 2,
+                "tipo": "comida",
+                "titulo": "Special Empanadas",
+                "sub_titulo": "Aprende a cocinar unas ricas Empanadas",
+                "img": "./img/empanadas.jpg"
+            },
+            {
+                "id": 3,
+                "tipo": "comida",
+                "titulo": "All Special Food",
+                "sub_titulo": "Descubre nuevas recetas",
+                "img": "./img/pabelloncriollo.jpg"
+            },
+            {
+                "id": 4,
+                "tipo": "bebida",
+                "titulo": "Special Chicha",
+                "sub_titulo": "Aprende a hacer Chicha!",
+                "img": "./img/chicha.jpg"
+            },
+            {
+                "id": 5,
+                "tipo": "bebida",
+                "titulo": "Special Papelon con Limon",
+                "sub_titulo": "Es hora de refrescarnos",
+                "img": "./img/papelonconlimon.jpg"
+            },
+            {
+                "id": 6,
+                "tipo": "bebida",
+                "titulo": "Special Drinks",
+                "sub_titulo": "Descubre nuevas recetas",
+                "img": "./img/tizana.jpg"
+            }
+        ]
+    }
+}
